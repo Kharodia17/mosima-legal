@@ -80,7 +80,7 @@ export default function LandingPage() {
             className="group text-left bg-primary rounded-xl p-10 transition-all duration-300 hover:-translate-y-1"
             style={{ boxShadow: '0 2px 8px rgba(26,28,28,0.12)' }}
           >
-            <span className="material-symbols-outlined text-secondary text-4xl mb-6 block">
+            <span className="material-symbols-outlined text-secondary-container text-4xl mb-6 block">
               admin_panel_settings
             </span>
             <h3
@@ -92,7 +92,7 @@ export default function LandingPage() {
             <p className="text-white/60 text-sm leading-relaxed mb-8">
               Manage consultations, verify payments, access reports and client records.
             </p>
-            <div className="flex items-center gap-2 text-secondary text-sm font-medium">
+            <div className="flex items-center gap-2 text-secondary-container text-sm font-medium">
               <span>Enter Portal</span>
               <span className="material-symbols-outlined text-base group-hover:translate-x-1 transition-transform">
                 arrow_forward
